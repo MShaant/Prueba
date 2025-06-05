@@ -1,0 +1,45 @@
+{
+  "name": "gatitopls-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --hostname 0.0.0.0",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.7.2",
+    "@fortawesome/free-solid-svg-icons": "^6.7.2",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "@heroicons/react": "^2.2.0",
+    "@heroicons/vue": "^2.2.0",
+    "@nextui-org/react": "^2.4.6",
+    "@types/axios": "^0.9.36",
+    "axios": "^1.8.4",
+    "date-fns": "^4.1.0",
+    "emoji-mart": "^5.6.0",
+    "framer-motion": "^12.15.0",
+    "gatitopls-frontend": "file:",
+    "next": "^14.2.21",
+    "next-themes": "^0.4.6",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.5.0",
+    "react-redux": "^9.1.2",
+    "react-router-dom": "^6.26.1",
+    "react-toastify": "^11.0.5",
+    "recharts": "^2.15.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.5",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.16",
+    "typescript": "^5"
+  }
+}
